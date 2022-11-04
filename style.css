@@ -1,13 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #3b3b98;
-  color: #fff;
-  font-family: 'Muli', sans-serif;
+  /* background-color: #3b3b98; */
+  background-color: rgb(244, 239, 239);
+
+  color: #3C4048;
+  /* font-family: "Muli", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,15 +29,17 @@ h2 {
 
 .container {
   border-radius: 25px;
-  background-color: #23235b;
-  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.2);
+  /* background-color: #23235b; */
+  background-color: #fff;
+  /* box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.2); */
+  box-shadow: 30px 10px 40px 5px rgba(200, 200, 200, 0.8);
   padding: 20px;
   width: 350px;
   max-width: 100%;
 }
 
 .result-container {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(215, 209, 209, 0.4);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -43,45 +49,49 @@ h2 {
   padding: 12px 10px;
   height: 50px;
   width: 100%;
+  border-radius: 24px;
 }
 
-.result-container #result{
+.result-container #result {
   word-wrap: break-word;
   max-width: calc(100% - 40px);
 }
 
 .result-container .btn {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  width: 40px;
-  height: 40px;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 30px;
   font-size: 20px;
+  border-radius: 16px;
 }
 
 .btn {
   border: none;
-  background-color: #3b3b98;
+  /* background-color: #3b3b98; */
+  background-color: #087f5b;
   color: #fff;
   font-size: 16px;
-  padding: 8px 12px;
+  padding: 0 12px;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #6C4AB6;
+  background-color: #099268;
 }
 
 .btn-large {
   display: block;
   width: 100%;
   border-radius: 24px;
+  padding: 10px 12px;
+
 }
 .btn-large:hover {
   color: #fff;
-  background-color: #6C4AB6;
+  background-color: #099268;
   transition: ease-in;
   font-weight: bold;
-
 }
 
 .setting {
